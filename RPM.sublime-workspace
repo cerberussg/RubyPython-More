@@ -24,9 +24,10 @@
 	},
 	"console":
 	{
-		"height": 131.0,
+		"height": 265.0,
 		"history":
 		[
+			"EDITOR=\"subl --wait\" bin/rails credentials:edit",
 			"ls",
 			"dir"
 		]
@@ -42,17 +43,22 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore",
-		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app",
-		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/config"
 	],
 	"file_history":
 	[
-		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app/controllers/blogs_controller.rb",
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app/controllers/pages_controller.rb",
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app/views/pages/home.html.erb",
 		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/config/routes.rb",
+		"/var/folders/z2/3h9vfv7j5_556_htlp0sgj_00000gp/T/credentials.yml.enc.43880",
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/.gitignore",
+		"/var/folders/z2/3h9vfv7j5_556_htlp0sgj_00000gp/T/credentials.yml.enc.43816",
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/config/credentials.yml.enc",
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/README.md",
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/config/database.yml",
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app/views/layouts/application.html.erb",
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app/controllers/blogs_controller.rb",
 		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app/views/blogs/index.html.erb",
-		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app/views/blogs/new.html.erb",
-		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/config/database.yml"
+		"/Users/sgoyette/RoR/Dissecting Ruby on Rails 5/RubyPythonMore/app/views/blogs/new.html.erb"
 	],
 	"find":
 	{
@@ -141,11 +147,11 @@
 		"selected_items":
 		[
 			[
-				"routes",
+				"rout",
 				"config/routes.rb"
 			],
 			[
-				"rout",
+				"routes",
 				"config/routes.rb"
 			]
 		],
@@ -177,7 +183,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 235.0,
+	"side_bar_width": 282.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
