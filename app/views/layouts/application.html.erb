@@ -18,11 +18,11 @@
       <!-- Nav partial -->
       <%= render "shared/application_nav", location: 'top' %>
 
-      <%= login_helper %>
+
 
       <%= yield %>
 
-      <%= copyright_generator %>
+      <%= render "shared/application_footer", location: 'bottom' %>
 
       <%= source_helper("application") %>
     </div>
