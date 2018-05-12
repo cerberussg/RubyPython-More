@@ -16,13 +16,13 @@
   <body>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <!-- Nav partial -->
-      <%= render "shared/application_nav", location: 'top' %>
+      <%= render "shared/application_nav" %>
 
 
 
       <%= yield %>
 
-      <%= render "shared/application_footer", location: 'bottom' %>
+      <%= render "shared/application_footer" %>
 
       <%= source_helper("application") %>
     </div>
