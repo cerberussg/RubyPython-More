@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import "jquery-ui";
 
 :root {
   --jumbotron-padding-y: 3rem;
@@ -43,6 +44,10 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ *= require jquery-ui
+ */
 
 /*
  * Custom Styles
