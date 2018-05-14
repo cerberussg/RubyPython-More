@@ -15,10 +15,20 @@
 
   <body>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <!-- Nav partial -->
+
+      <%= video_tag(
+          ['HardDrivePhotojpeg.mp4', 'HardDrivePhotojpeg.ogv'],
+          id: 'background',
+          autoplay: true,
+          loop: true,
+          muted: true,
+          poster: 'home_bg.png',
+          autobuffer: true,
+          type: 'video/mp4'
+        )
+        %>
+
       <%= render "shared/application_nav" %>
-
-
 
       <%= yield %>
 
