@@ -1,5 +1,6 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import "gritter";
 
 /*
  *= require font-awesome
@@ -90,7 +91,6 @@ body {
     float: right;
   }
 }
-
 
 /*
  * Cover

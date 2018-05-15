@@ -15,6 +15,7 @@
 //= require activestorage
 //= require jquery-ui
 //= require html.sortable
+//= require gritter
 //= require cocoon
 //= require turbolinks
 //= require_tree .
