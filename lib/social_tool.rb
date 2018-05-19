@@ -7,7 +7,7 @@ module SocialTool
       config.access_token_secret = ENV['YOUR_ACCESS_SECRET']
     end
 
-    client.search("#ruby, #python, #coding", result_type: 'recent').take(6).collect do |tweet|
+    client.search("#python, #ruby, #programming", result_type: 'recent').take(6).collect do |tweet|
       "#{tweet.user.screen_name}: #{tweet.text}"
     end
   end
