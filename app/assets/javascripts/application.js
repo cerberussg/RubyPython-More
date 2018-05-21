@@ -17,6 +17,7 @@
 //= require html.sortable
 //= require gritter
 //= require cocoon
+//= require cable
 //= require turbolinks
 //= require_tree .
 //= require popper
