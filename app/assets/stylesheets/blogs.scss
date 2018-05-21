@@ -159,6 +159,7 @@ h6, .h6 {
  */
 
 .blog-footer {
+margin-top: 20px;
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
@@ -196,4 +197,18 @@ h6, .h6 {
 .pagination.pagination-sm > li.active > a {
   background: #17a2b8;
   color: white;
+}
+
+.comment-card > .card {
+  margin-top: 15px;
+}
+
+.comment-attribution {
+  margin-top: 5px;
+  font-size: .8em;
+  font-style: italic;
+}
+
+.comment-name {
+  font-weight: 700;
 }
