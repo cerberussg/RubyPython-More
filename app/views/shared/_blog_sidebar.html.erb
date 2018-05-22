@@ -1,8 +1,17 @@
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
   <div class="sidebar-module sidebar-module-inset">
     <h4>About</h4>
-    <P>Blogging about Ruby, Python and many more topics. Anything from infosec to blockchain, from Rails to Flask and anything in between.</P>
+    <P>Blogging about Ruby, Python and many more topics. From rails to flask and anything in between.</P>
     <blockquote cite="Patrick McKenzie"><p>"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - Patrick McKenzie</p></blockquote>
+  </div>
+
+  <%= source_helper("alert alert-info blog-sidebar-source") %>
+
+  <div class="sidebar-module">
+    <h4>Topics</h4>
+    <% @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
   </div>
 
   <div class="sidebar-module">
