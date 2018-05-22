@@ -80,6 +80,6 @@ development:
 #
 production:
   <<: *default
-  database: RubyPythonMore_production
-  username: RubyPythonMore
+  database: d6jm3b9og98mcl
+  username: ualxswazaajqve
   password: <%= ENV['RUBYPYTHONMORE_DATABASE_PASSWORD'] %>
