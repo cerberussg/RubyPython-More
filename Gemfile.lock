@@ -293,7 +293,6 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.1.1)
   bootstrap4-kaminari-views
-  bundler (~> 1.16, >= 1.16.2)
   byebug
   carrierwave (~> 1.2, >= 1.2.2)
   carrierwave-aws (~> 1.3)
