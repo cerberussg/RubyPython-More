@@ -44,7 +44,7 @@ module ApplicationHelper
       },
       {
         url: tech_news_path,
-        title: 'RP&M News'
+        title: 'Developer News'
       }
     ]
   end
