@@ -2,7 +2,7 @@
   <%= paginate @blogs, theme: 'twitter-bootstrap-4',
                               pagination_class: "pagination-sm" %>
 
-  <%= render @blogs %>
+  <%= render truncate(@blogs, :length => 200) %>
 
   <%= paginate @blogs, theme: 'twitter-bootstrap-4',
                               pagination_class: "pagination-sm" %>
