@@ -16,6 +16,8 @@
 //= require jquery-ui
 //= require html.sortable
 //= require gritter
+//= require lib/typed
+//= require typed-implementation
 //= require cocoon
 //= require cable
 //= require turbolinks
