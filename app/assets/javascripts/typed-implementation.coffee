@@ -4,7 +4,7 @@ ready = ->
       "Software development shouldn't be mystical voodoo."
       "When I take on a new project I make it my goal to not only deliver a well crafted product, I also ensure that each stage of the process is fully communicated."
     ]
-    typeSpeed 0
+    typeSpeed 40
   return
 
 $(document).ready ready
