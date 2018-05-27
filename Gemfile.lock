@@ -272,6 +272,7 @@ GEM
       multipart-post (~> 2.0)
       naught (~> 1.0)
       simple_oauth (~> 0.3.0)
+    typedjq-rails (0.1.2)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (4.1.10)
@@ -331,6 +332,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
   twitter (~> 6.2)
+  typedjq-rails (~> 0.1.2)
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
