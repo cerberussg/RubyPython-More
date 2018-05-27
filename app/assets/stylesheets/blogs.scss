@@ -226,6 +226,7 @@ margin-top: 20px;
   margin-top: 20px;
 }
 
-.blog-img-size {
-  max-width: 60rem;
+img[alt="ror"] {
+  max-width:  60em;
+  display: block;
 }
