@@ -1,4 +1,4 @@
-<% content_for :meta_title, @blog.title %>
+<% content_for :meta_title, "#{@blog.title}" %>
 <% content_for :meta_description, truncate(@blog.body, :length => 500) %>
 
 <div class="col-sm-8 blog-main">
