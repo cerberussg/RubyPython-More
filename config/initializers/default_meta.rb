@@ -1,2 +1,2 @@
 # Initialize default meta tags.
-DEFAULT_META = YAML.load_file(Rails.root("config/meta.yml"))
+DEFAULT_META = YAML.load_file("config/meta.yml")
