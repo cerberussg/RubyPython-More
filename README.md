@@ -16,9 +16,9 @@
 ## UI:
 - [x] Growl Notifications with Gritter
 - [x] 3 Unique Layouts
- - [x] Site Layout
- - [x] Projects Layout
- - [x] Blog Layout
+  - [x] Site Layout
+  - [x] Projects Layout
+  - [x] Blog Layout
 - [x] Video on Homepage
 - [x] Personal Copyright Gem
 - [x] Bootstrap 4
