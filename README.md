@@ -1,5 +1,5 @@
 # README
-+ Ruby 2.4.1
++ Ruby 2.4.0
 + Rails 5.2.0
 
 ## Personal page for hustlin what I do best.
@@ -20,15 +20,21 @@
   - [x] Projects Layout
   - [x] Blog Layout
 - [x] Video on Homepage
+- [x] Pagination
+- [x] Coderay & Redcarpet support - Syntax Highlighting & Markdown
 - [x] Personal Copyright Gem
 - [x] Bootstrap 4
+- [x] Social Media Linking
 
 ## Features
 - [x] Twitter feed for dev news
 - [x] Ability to organize Projects in any order, login & site admin required
 - [x] Custom blog
+- [x] Topics Sidebar
+- [x] Syntax Highlighting & Markdown support for blogging
 - [x] Unique projects section
 - [ ] Contact Form
+- [ ] Mailing List
 
 
 ## TODO:
