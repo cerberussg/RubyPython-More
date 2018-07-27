@@ -1,23 +1,36 @@
-# RPM Application
+# README
++ Ruby 2.4.1
++ Rails 5.2.0
 
-Welcome!
+## Personal page for hustlin what I do best.
 
-Things you may want to cover:
+## Models:
+- [x] Comment
+- [x] Guest User
+- [x] Portfolio
+- [x] Skill
+- [x] Technology
+- [x] Topic
+- [x] User
 
-* Ruby version
+## UI:
+- [x] Growl Notifications with Gritter
+- [x] Site Layout
+- [x] Projects Layout
+- [x] Blog Layout
+- [x] Video on Homepage
+- [x] Personal Copyright Gem
+- [x] Bootstrap 4
 
-* System dependencies
+## Features
+- [x] Twitter feed for dev news
+- [x] Ability to organize Projects in any order, login & site admin required
+- [x] Custom blog
+- [x] Unique projects section
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## TODO:
+- [ ] Contact Form
+- [ ] Edit About Me section
+- [ ] Update Projects with recent work
+- [ ] Integrate mailing list with site
