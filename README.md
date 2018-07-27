@@ -15,9 +15,10 @@
 
 ## UI:
 - [x] Growl Notifications with Gritter
-- [x] Site Layout
-- [x] Projects Layout
-- [x] Blog Layout
+- [x] 3 Unique Layouts
+ - [x] Site Layout
+ - [x] Projects Layout
+ - [x] Blog Layout
 - [x] Video on Homepage
 - [x] Personal Copyright Gem
 - [x] Bootstrap 4
@@ -27,6 +28,7 @@
 - [x] Ability to organize Projects in any order, login & site admin required
 - [x] Custom blog
 - [x] Unique projects section
+- [ ] Contact Form
 
 
 ## TODO:
