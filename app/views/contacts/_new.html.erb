@@ -1,0 +1,22 @@
+<h3></h3>
+<%= form_with model: @contact, local: true do |f| %>
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: "form-control", required: true %>
+  </div>
+  <div class="form-group">
+    <%= f.label :email %>
+    <%= f.email_field :email, class: "form-control", required: true %>
+  </div>
+  <div class="form-group">
+    <%= f.label :message %>
+    <%= f.text_area :message, class: "form-control", rows: 8, as: :text %>
+  </div>
+  <div hidden>
+    <%= f.label :nickname %>
+    <%= f.text_field :nickname, hint: 'leave this field blank' %>
+  </div>
+  <div class="form-group">
+    <%= f.submit "Send Message", class: "btn btn-info" %>
+  </div>
+<% end %>
