@@ -8,9 +8,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-      redirect_to contacts_path, notice: "Email Successfully Sent"
-    else
-      redirect_to contact_path, error: "Email could not be sent"
+      redirect_to contact_path, notice: "Email Successfully Sent"
     end
   end
 end
