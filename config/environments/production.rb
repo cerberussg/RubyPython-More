@@ -100,4 +100,6 @@ Rails.application.configure do
     'http://sg-dev-portfolio.herokuapp.com'
   ]
   config.action_cable.url = "wss://sg-dev-portfolio.herokuapp.com/cable"
+
+  config.action_mailer.default_url_options = { host: 'https://rubypythmore.com', port: 3000 }
 end
