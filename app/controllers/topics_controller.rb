@@ -7,7 +7,7 @@ class TopicsController < ApplicationController
 
   def new
     if logged_in?(:site_admin)
-
+      @topic = Topic.new
     else
       redirect_to root_path, notice: "You are not authorized to view this page!"
     end
