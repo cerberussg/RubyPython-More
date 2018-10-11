@@ -5,6 +5,18 @@ class TopicsController < ApplicationController
     @topics = Topic.all
   end
 
+  def new
+    if logged_in?(:site_admin)
+
+    else
+      redirect_to root_path, notice: "You are not authorized to view this page!"
+    end
+  end
+
+  def create
+
+  end
+
   def show
     @topic = Topic.find(params[:id])
 
