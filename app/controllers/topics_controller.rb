@@ -2,7 +2,7 @@ class TopicsController < ApplicationController
   before_action :set_sidebar_topics
   layout 'blog'
   def index
-    @topics = Topic.all
+    @topics = Topic.all.order("created_at DESC")
   end
 
   def new
