@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   include DefaultPageContent
 
   def default_url_options(*)
-    { secure: true }
+    { :protocol => 'https' }
   end
 end
