@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
   include SetSource
   include CurrentUserConcern
   include DefaultPageContent
+
+  def default_url_options(options={})
+    { :secure => true }
+  end
 end
