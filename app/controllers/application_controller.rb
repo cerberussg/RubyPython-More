@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   include CurrentUserConcern
   include DefaultPageContent
 
-  def default_url_options(options={})
-    { :secure => true }
+  def default_url_options(*)
+    { secure: true }
   end
 end
