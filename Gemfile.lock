@@ -331,7 +331,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rack (~> 2.0, >= 2.0.6)
-  rails (~> 5.2.0)
+  rails (~> 5.2.2)
   redcarpet (~> 3.4)
   redis (~> 4.0, >= 4.0.1)
   rubyzip (~> 1.2, >= 1.2.2)
@@ -347,7 +347,7 @@ DEPENDENCIES
   webpacker (~> 3.5, >= 3.5.3)
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.6.1p33
 
 BUNDLED WITH
-   1.16.2
+   1.17.2
